@@ -1,45 +1,87 @@
 package com.example.fibonacci;
+import java.util.Scanner;
 
+//import com.sun.tools.javac.Main;
 
-public class Fibonacci {
+//superclass
+class Animal {
+    public void animalSound() {
+        System.out.println("The animal makes a sound");
+    }
+}
+
+//subclasses
+class Pig extends Animal {
+    public void animalSound(){
+        System.out.println("The pig says: wee wee");
+    }
+}
+
+class Dog extends Animal {
+    public void animalSound(){
+        System.out.println("The dog barks: wao, waoo");
+    }
+}
+//subclass (child)
+public class Fibonacci extends Vehicle{
+    int fibonacciNumber = 5;
+    private String name;
+    private String modelName = "Mustang";
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String newName){
+        this.name = newName;
+    }
+    
+    public Fibonacci(int number) {
+        fibonacciNumber = number;
+    }
     //methods/functions
-     String numberTwo;
     static void myMethod() {
         System.out.println("I get married");
     }
 
+    public void myPublicMehothd(){
+        System.out.println("Public method");
+    }
+
     public static void main(String[] args){
+        Fibonacci myObj = new Fibonacci(30);
 
+        Scanner myOb = new Scanner(System.in);
+        System.out.println("Ingresa el nombre de usuario");
+        String userName = myOb.nextLine();
+        System.out.println("El nombre de usuario es: " + userName);
 
-        final int myAge = 28;
-        final String myName = "Cesar";
-        final char a = 44, b = 66, c = 67;
-        String hello = "Hello World";
-        int number = 24;
-        hello = "Hey You!";
+        //call the subclasses inherited form superclass Animal
+        Animal myAnimal = new Animal();
+        Animal myPig = new Pig();
+        Animal myDog = new Dog();
+        myAnimal.animalSound();
+        myPig.animalSound();
+        myDog.animalSound();
 
-        byte nyNum = -128;
-        short num = -32768;
-        System.out.println(hello + " " + number + " " + myAge);
-        float f1 = 353e3f;
-        double f2 = 35E3d;
-        String[] cars = {"Volvo", "BMW", "Ford"};
-        for(String i : cars){
-            System.out.println(i);
-        }
-        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
-        for (int i = 0; i < myNumbers.length; ++i) {
-            for(int j = 0; j < myNumbers[i].length; ++j) {
-                System.out.println(myNumbers[i][j]);
-            }
-        }
-        String txt = "ABXASDFDDQPOIWUER123 HEY asdfqwe ASW";
-        String texto = "Mi nombre es \"Cesar\" ";
-
-
-        myMethod();
-
+        myObj.fibonacciNumber = 25;
+        System.out.println(myObj.fibonacciNumber);
+        myObj.myPublicMehothd();
+        myObj.setName("Johny");
+        System.out.println(myObj.getName());
+        //myMethod();
+        myObj.honk();
+        System.out.println(myObj.brand + " " + myObj.modelName);
+        
     }
 
 }
 
+//superclass (parent)
+class Vehicle {
+    protected String brand = "Ford";
+    public void honk() {
+        System.out.println("Tuu, tuut");
+
+    }
+}
