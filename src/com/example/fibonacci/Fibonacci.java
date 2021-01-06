@@ -56,6 +56,19 @@ public class Fibonacci extends Vehicle{
         String userName = myOb.nextLine();
         System.out.println("El nombre de usuario es: " + userName);
 
+        int fibonacci(int n){
+            //System.out.println("Ingresa el numero fibonacci");
+            if(n > 1){
+                return fibonacci(n-1) + fibonacci(n+1);
+            }
+            else if (n == 1){
+                return 1;
+            }
+            else if(n == 0){
+                return 0;
+            }
+        }
+
         //call the subclasses inherited form superclass Animal
         Animal myAnimal = new Animal();
         Animal myPig = new Pig();
