@@ -3,18 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b92c4698-5547-45d0-ae23-cae2f8ebd54f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/conjuntos/Conjuntos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/conjuntos/Conjuntos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/fibonacci/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/fibonacci/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/fibonacci/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/fibonacci/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/fibonacci/Pig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/fibonacci/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/multiplyMatrixes/MultiplyMatrixes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/multiplyMatrixes/MultiplyMatrixes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/orederlistnumbers/OrderListNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/orederlistnumbers/OrderListNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/conjuntos/Conjuntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/conjuntos/Conjuntos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/fibonacci/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/fibonacci/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/multiplyMatrixes/MultiplyMatrixes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/multiplyMatrixes/MultiplyMatrixes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/orederlistnumbers/OrderListNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/orederlistnumbers/OrderListNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/matrrixnxn/MatrizNxN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/matrrixnxn/MatrizNxN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/readtextfile/ReadTextFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/readtextfile/ReadTextFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/matrrixnxn/MatrizNxN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/matrrixnxn/MatrizNxN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/readtextfile/ReadTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/readtextfile/ReadTextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texto" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +48,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="WineCultures" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.winecultures.WineCultures" />
+    <configuration name="MatrizNxN" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.matrrixnxn.MatrizNxN" />
       <module name="Java Problems Exercises" />
       <extension name="coverage">
         <pattern>
