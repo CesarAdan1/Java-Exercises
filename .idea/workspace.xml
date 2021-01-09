@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b92c4698-5547-45d0-ae23-cae2f8ebd54f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/orederlistnumbers/OrderListNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/orederlistnumbers/OrderListNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/matrrixnxn/MatrizNxN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Problems Exercises/com/example/matrrixnxn/MatrizNxN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/hammingDistance/HammingDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/hammingDistance/HammingDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/matrrixnxn/MatrizNxN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/matrrixnxn/MatrizNxN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +52,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="OrderListNumbers" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.orederlistnumbers.OrderListNumbers" />
+    <configuration name="HammingDistance" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.hammingDistance.HammingDistance" />
       <module name="Java Problems Exercises" />
       <extension name="coverage">
         <pattern>

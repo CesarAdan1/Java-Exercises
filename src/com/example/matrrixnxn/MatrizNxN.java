@@ -3,14 +3,25 @@ import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class MatrizNxN {
+     int z;
     static void matrixOrder(int n, int numberOfTimes){
+            //int in =
+        int z;
+        //int[] appear = new int[];
+        int val = 0;
+
        for (int x = 0; x < n; x++){
             for (int y = 0; y < n; y ++){
-                int z;
                 z = Math.min(Math.min(x, y), Math.min(n - 1 - x, n-1 - y));
                 if(x < y) System.out.println((n-2 * z)*(n-2*z) - (x-z) - (y-z) + "\t");
                 else System.out.println((n - 2 * z - 2) * (n - 2 * z - 2) + (x-z) + (y-z) + "\t");
             }
+        }
+
+        if(n == numberOfTimes){
+            System.out.println("El numero " + numberOfTimes + " aparece " + n);
+        } else{
+            System.out.println("El número introducido no aparece en la matriz");
         }
     }
 
@@ -19,6 +30,7 @@ public class MatrizNxN {
         Scanner numInput = new Scanner(System.in);
         int n;
         int numberOfTimes;
+        int timesIsShown = 0;
 
         System.out.println("Introduce la dimesion de la matriz, tendra lo mismo de columnas y filas");
         n = numInput.nextInt();
@@ -27,8 +39,5 @@ public class MatrizNxN {
         numberOfTimes = numInput.nextInt();
 
         matrixOrder(n, numberOfTimes);
-        if(numberOfTimes == String.valueOf(n).length()){
-            System.out.println("El número " +  numberOfTimes + " aparece " + String.valueOf(numberOfTimes).length());
-        }
     }
 }
